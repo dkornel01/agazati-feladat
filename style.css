@@ -4,10 +4,10 @@ body{
 aside img{
     width: 100%;
 }
-aside{grid-area: "as";
+aside{grid-area: as;
 }
 article{
-    grid-area: "a";
+    grid-area: a;
 text-align: justify;
 }
 article h2{
@@ -20,9 +20,9 @@ article img{
     float: right;
     width: 40%;
 }
-footer{grid-area: "f";}
+footer{grid-area: f;}
 header{
-    grid-area: "h";
+    grid-area: h;
     opacity: 0.8;
     background-image: url(mikulas/kepek/fejlec.jpg);
     height: 550px;
@@ -33,7 +33,7 @@ header{
     text-align: center;
 }
 nav{
-    grid-area: "n";
+    grid-area: n;
     background-color: red;
     height: 50px;
     grid-template-columns: 1fr;
