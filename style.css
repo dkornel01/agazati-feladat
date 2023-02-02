@@ -14,11 +14,11 @@ article h2{
     font-size: 15px;
     color: #ff1a1a;
     font-family: "Trebuchet MS, Helvetica, sans-serif";
-    float: left;
 }
 article img{
     box-shadow: inset;
     float: right;
+    width: 40%;
 }
 footer{grid-area: "f";}
 header{
@@ -52,11 +52,11 @@ nav a:hover{
 }
 
 main{
-    grid-template-columns: 1fr 3fr;
     grid-template-areas:"h h"
                         "n n"
                         "as a"
                         "f f";
+    grid-template-columns: 1fr 3fr;
     display: grid;
     width: 80%;
     max-width: 1000px;
@@ -70,6 +70,7 @@ main{
                         "a"
                         "as"
                         "f";
+    grid-template-columns: 1fr;
     display: grid;
     }
 }
