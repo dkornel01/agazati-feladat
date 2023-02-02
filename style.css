@@ -4,7 +4,8 @@ body{
 aside img{
     width: 100%;
 }
-aside{grid-area: "as";}
+aside{grid-area: "as";
+}
 article{
     grid-area: "a";
 text-align: justify;
